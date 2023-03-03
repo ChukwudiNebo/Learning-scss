@@ -1,0 +1,41 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;   
+}
+
+
+
+// theme colors
+$primary : #326dee;
+$secondary: #1ac888;
+$error:#d32752;
+$info: #f6c31c;
+
+h1 {
+    color: $primary;
+}
+
+a{
+    color: $secondary;
+    font-size: 66px;
+    text-decoration: none;
+}
+
+button{
+    color:white;
+    border:0;
+    background:$primary;
+}
+
+.error{
+    color:$error;
+    border-color: $error;
+    border-style: solid;
+}
+
+.notification{
+    color:$secondary;
+    border-color: $secondary;
+    border-style: solid;
+}
