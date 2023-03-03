@@ -12,8 +12,17 @@ $secondary: #1ac888;
 $error:#d32752;
 $info: #f6c31c;
 
+// Spacing
+$base-padding:0.75rem;
+$base-margin:0.75rem;
+
+// Borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
 h1 {
     color: $primary;
+    margin-bottom: $base-margin;
 }
 
 a{
@@ -26,16 +35,38 @@ button{
     color:white;
     border:0;
     background:$primary;
+    padding: $base-padding
+    border-radius: $base-border-radius;
+    -webkit-border-radius: $base-border-radius;
+    -moz-border-radius: $base-border-radius;
+    -ms-border-radius: $base-border-radius;
+    -o-border-radius: $base-border-radius;
 }
 
 .error{
     color:$error;
     border-color: $error;
     border-style: solid;
+    margin:$base-margin;
+    border-width: $base-border-thickness;
+    padding:$base-padding;
+    border-radius: $base-border-radius;
+    -webkit-border-radius: $base-border-radius;
+    -moz-border-radius: $base-border-radius;
+    -ms-border-radius: $base-border-radius;
+    -o-border-radius: $base-border-radius;
 }
 
 .notification{
     color:$secondary;
     border-color: $secondary;
     border-style: solid;
+     margin:$base-margin;
+    border-width: $base-border-thickness;
+    padding:$base-padding;
+    border-radius: $base-border-radius;
+    -webkit-border-radius: $base-border-radius;
+    -moz-border-radius: $base-border-radius;
+    -ms-border-radius: $base-border-radius;
+    -o-border-radius: $base-border-radius;
 }
