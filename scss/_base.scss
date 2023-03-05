@@ -1,0 +1,21 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;   
+}
+
+
+
+
+
+h1 {
+    color: $primary;
+    margin-bottom: $base-margin;
+}
+
+a{
+    color: $secondary;
+    font-size: 20px;
+    text-decoration: none;
+}
+

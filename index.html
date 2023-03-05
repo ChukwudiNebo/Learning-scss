@@ -1,18 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
     <title>Document</title>
-</head>
-<body>
-   <h1>
-    This is an h1
-   </h1>
-   <a href="#">This is an anchor tag</a>
-   <p class="error">This is an error</p>
-   <p class="notification">This is a notification</p>
-</body>
+  </head>
+  <body>
+    <!-- colors -->
+    <!-- colors -->
+    <h2>Colors</h2>
+    <span class="text-primary">primary text</span> |
+    <span class="text-secondary">secondary text</span> |
+    <span class="text-error">error text</span> |
+    <span class="text-info">info text</span> |
+    <span class="text-blue">blue text</span> |
+    <span class="text-red">red text</span> |
+    <span class="text-green">green text</span> |
+    <span class="text-yellow">yellow text</span> |
+    <span class="text-purple">purple text</span> |
+    <span class="text-orange">orange text</span> |
+    <span class="text-gray">gray text</span>
+
+    <br /><br />
+
+    <span class="bg-primary text-white">bg primary</span> |
+    <span class="bg-secondary text-white">bg secondary</span> |
+    <span class="bg-error text-white">bg error</span> |
+    <span class="bg-info text-white">bg info</span> |
+    <span class="bg-blue text-white">bg blue</span> |
+    <span class="bg-red text-white">bg red</span> |
+    <span class="bg-green text-white">bg green</span> |
+    <span class="bg-yellow text-white">bg yellow</span> |
+    <span class="bg-purple text-white">bg purple</span> |
+    <span class="bg-orange text-white">bg orange</span> |
+    <span class="bg-gray text-white">bg gray</span> |
+
+    <br /><br />
+
+    <span class="bg-primary-dark-8 text-white">primary dark 8</span> |
+    <span class="bg-primary-dark-6 text-white">primary dark 6</span> |
+    <span class="bg-primary-dark-4 text-white">primary dark 4</span> |
+    <span class="bg-primary-dark-2 text-white">primary dark 2</span> |
+    <span class="bg-primary text-white">primary</span> |
+    <span class="bg-primary-light-2 text-white">primary light 2</span> |
+    <span class="bg-primary-light-4 text-white">primary light 4</span> |
+    <span class="bg-primary-light-6 text-white">primary light 6</span> |
+    <span class="bg-primary-light-8 text-white">primary light 8</span> |
+
+    <br /><br />
+
+    <a href="#" class="text-primary text-hover-orange-light-1">hover me</a>
+
+    <!-- font sizes -->
+    <h2 class="mb-2">Font Sizes</h2>
+    <div class="font-sm">this is small font</div>
+    <div class="font-md">this is medium font</div>
+    <div class="font-lg">this is large font</div>
+    <div class="font-xl">this is extra large font</div>
+    <div class="font-xxl">this is extra, extra large font</div>
+
+    <hr class="mt-4 mb-4" />
+
+    <!-- buttons -->
+    <h2>Buttons</h2>
+    <a href="#" class="btn">default btn</a>
+    <a href="#" class="btn-primary text-white">click me</a>
+    <a href="#" class="btn-secondary text-white">click me</a>
+    <a href="#" class="btn-error text-white">click me</a>
+    <a href="#" class="btn-info">click me</a>
+    <a href="#" class="btn-outlined-purple text-purple text-hover-white"
+      >click me</a
+    >
+    <a href="#" class="btn-outlined-orange text-orange text-hover-white"
+      >click me</a
+    >
+    <a href="#" class="btn-complement-purple">click me</a>
+    <a href="#" class="btn-complement-primary">click me</a>
+
+    <hr class="mt-4 mb-4">
+
+    <!-- cards -->
+    <h2>Cards</h2>
+    <div class="card">
+      <h1 class="card-title">Card title</h1>
+      <p class="card-body">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
+        repudiandae distinctio, culpa neque blanditiis illo impedit corporis
+        quaerat illum! Inventore <a href="#">blanditiis recusandae</a> beatae
+        error culpa facere! Iusto veniam est rerum!
+      </p>
+    </div>
+    <!-- grid system -->
+ <div class="responsive-test">changing colors</div>
+
+
+
+    <hr class="mt-4 mb-4" />
+
+    <!-- utilities -->
+
+    <hr class="mt-4 mb-4" />
+
+    <script>
+      // return true if width is greater than height
+      //   function isLandscape(width, height) {
+      //     let resolute = width > height ? true : false;
+      //     return resolute;
+      //   }
+      //   console.log(isLandscape(10, 5));
+
+      // Divisible by 3 => Fizz
+      // Divisible by 5 => Buzz
+      // Divisible by both 3 and 5 => FizzBuzz
+      // Not Divisible by 3 and 5 => input
+      // Not a number => 'Not a number'
+
+      //   const output = fizzBuzz(6);
+      //   console.log(output);
+
+      //   function fizzBuzz(input) {
+      //     let i = input;
+      //     if (typeof i !== 'number'){
+      //        return console.log('NAN');
+      //       }
+      //     for (i = 1; i <= 15; i++) {
+      //          if (i % 3 === 0 && i % 5 === 0) {
+      //           console.log(i, "FizzBuzz");
+      //         }
+      //       else if (i % 3 === 0) {
+      //         console.log(i, "Fizz");
+      //       }
+      //       else if (i % 5 === 0) {
+      //         console.log(i, "Buzz");
+      //       }
+      //     //   else if (i!==Number){
+      //     //     console.log('NAN');
+      //     //   }
+      //       //   console.log(i);
+      //     }
+
+      //   }
+
+      // Speed Limit = 70 **ok
+      // 5 -> 1 point
+      // Math.floor(1.3)
+      // above 12 points -> suspended
+
+      //   checkSpeed(78);
+
+      //   function checkSpeed(speed) {
+      //     const speedLimit = 75;
+
+      //     if (speed < speedLimit) {
+      //      return console.log("ok")
+      //     }
+      //     i = speed;
+      //     for (i = 75; i < 180; i++) {
+      //       if (i + 5 === 80) {
+      //        return console.log("POINT:1");
+      //       }
+      //       else{
+      //         return console.log('suspended')
+      //       }
+      //     }
+      //   }
+
+      //   showNumbers(10);
+
+      //   function showNumbers(limit) {
+      //     let b = limit;
+      //     for (i = 0; i <= b; i++) {
+      //       // my code
+      //       if ((i / 2) % 1) {
+      //         console.log(i, "ODD");
+      //       } else {
+      //         console.log(i, "EVEN");
+      //       }
+      //       //   console.log(i);
+
+      //       //   tutorial code
+      //       const message = i % 2 === 0 ? "EVEN" : "ODD";
+      //       console.log(i, message);
+      //     }
+      //   }
+
+      //   const array = [0, null, undefined, "", 2, 3, 4];
+
+      //   console.log(countTruthy(array));
+
+      //   function countTruthy(array) {
+      //       let count = 0;
+      //     for (let arr of array) {
+      //       // my code has a bug of including 0. i'm not meant to output zero because it is falsy
+      //       // if (typeof arr === 'number' && typeof arr !== 0){
+      //       //     console.log(arr.length)
+      //       // }
+
+      //       if (arr)
+      //         count++;
+
+      //     }
+      //     return count;
+      //   }
+
+      // const movie ={
+      //     title: 'a',
+      //     releaseYear: 2018,
+      //     rating:4.5,
+      //     director:'b'
+      // };
+
+      // showProperties(movie)
+
+      // function showProperties(obj){
+      //     for (let list in obj){
+
+      //     if(typeof obj[list] === 'string')
+
+      //         console.log(list,obj[list])
+      //     }
+      // }
+
+      //   console.log(sum(10));
+
+      // Multiples of 3: 3,6,9
+      // Multiples of 5: 5,10
+
+      //   function sum(limit) {
+      //     let sum = 0;
+      //     for (let i = 0; i <= 10; i++) {
+      //       if (i % 3 === 0 || i % 5 === 0) {
+      //         // sum += i;
+      //         console.log(i)
+      //       }
+      //     }
+      //     return sum
+      //   }
+
+      // Finding grade
+      //   const marks = [80, 80, 50,77,88];
+      //Average = 70
+      // 1-59:F
+      // 60-69:D
+      // 70-79:C
+      // 80-89: B
+      // 90-100:A
+      //   calculateGrade(marks);
+    </script>
+  </body>
 </html>
